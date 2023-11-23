@@ -15,4 +15,4 @@
 8.install a library for dynamic ids using
 -npm install uuid
 
-STOP AT 26:08MINUTES
+STOP AT 29:40 MINUTES
