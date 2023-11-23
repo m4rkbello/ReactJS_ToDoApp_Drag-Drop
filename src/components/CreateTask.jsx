@@ -9,17 +9,16 @@ const CreateTask = ({ tasks, setTasks }) => {
         status: "TODO", // also be in progress or closed!
    });
 
-//    useEffect(() => {
-//     console.log("Component mounted or updated");
-//  }, [tasks]); // Log when tasks change
-
+   useEffect(() => {
+    console.log("Component mounted or updated");
+ }, [tasks]); // Log when tasks change
 
  const handleSubmit = (e) => {
     e.preventDefault();
     //state properties
     setTasks((prev) => {
         const newList = [...prev, task];
-        localStorage.setItem("tasks", JSON.stringify(newList));
+        localStorage.setItem("tasks", JSON.stringify(newList)); //save as an array tapos e convert into string tas e labay sa components!
         return newList;
     });
 };
