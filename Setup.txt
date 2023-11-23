@@ -1,0 +1,18 @@
+1. npm create vite@latest
+2. cd [foldername
+3. npm create vite@latest . -- --template
+4. npm install -D tailwindcss postcss autooprefixer
+5. npx tailwindcss init -p
+6. tailwind.config.js add this 
+ content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ], 
+7. ./src/index.css add 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+8.install a library for dynamic ids using
+-npm install uuid
+
+STOP AT 26:08MINUTES
