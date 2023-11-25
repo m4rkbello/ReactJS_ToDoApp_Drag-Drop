@@ -23,7 +23,7 @@ const CreateTask = ({ tasks, setTasks }) => {
         return newList;
     });
 };
-    
+
     return ( 
         <form onSubmit={handleSubmit}>
             <input
@@ -36,5 +36,5 @@ const CreateTask = ({ tasks, setTasks }) => {
         </form>
      );
 }
- 
+
 export default CreateTask;
